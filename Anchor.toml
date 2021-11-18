@@ -1,0 +1,12 @@
+[programs.devnet]
+buildaboard = "BdbfmrSnJoatrQcUdKjYUCWj2eTxA5jacSVBKN5rpVac"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/thurau/.config/solana/id.json"
+
+[scripts]
+test = "node tests/buildaboard.js"
